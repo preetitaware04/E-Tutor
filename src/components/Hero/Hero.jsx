@@ -6,6 +6,7 @@ const Hero = () => {
     <>
       <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative">
         {/* brand info */}
+        {/* vhgfhfhfhf */}
         <div className="flex flex-col justify-center py-14 md:pr-16 xl:pr-40 md:py-0">
           <div className="text-center md:text-left space-y-6">
             <p className="text-orange-600 uppercase font-semibold">

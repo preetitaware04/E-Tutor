@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import NavbarBanner from "./components/Navbar/NavbarBanner";
 import Hero from "./components/Hero/Hero";
+import NumberCounter from "./components/NumberCount/NumberCounter";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <NavbarBanner />
       <Hero />
+      <NumberCounter/>
     </main>
   );
 };

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { NavbarMenu } from "../../mockData/data.js";
+import { useState } from "react";
+import { NavbarMenu } from "../../mockData/data.jsx";
 import { MdComputer, MdMenu } from "react-icons/md";
 import { motion } from "framer-motion";
 import ResponsiveMenu from "./ResponsiveMenu.jsx";

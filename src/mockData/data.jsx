@@ -73,21 +73,82 @@ export const WhyChooseUsData = [
 
 export const BannerData = [
   {
+    id: 1,
     image: Img1,
     tag: "CUSTOMIZE WITH YOUR SCHEDULE",
     title: "Personalized Professional Online Tutor on Your Schedule",
     subtitle:
       "Our scheduling system allows you to select based on your free time. Lorem ipsum demo text for template. Keep track of your students class and tutoring schedules, and never miss your lectures. The best online class scheduling system with easy accessibility.Lorem ipsum is a placeholder text commonly used to demonstrate the visual form",
     link: "#",
+    reverse: false,
   },
-];
-export const BannerData2 = [
   {
+    id: 2,
     image: Img2,
     tag: "CUSTOMIZE WITH YOUR SCHEDULE",
     title: "Talented and Qualified Tutors to Serve You for Help",
     subtitle:
       "Our scheduling system allows you to select based on your free time. Lorem ipsum demo text for template. Keep track of your students class and tutoring schedules, and never miss your lectures. The best online class scheduling system with easy accessibility. Lorem ipsum is a placeholder text commonly used",
     link: "#",
+    reverse: true,
   },
 ];
+
+// export const SubjectCard =[
+//   {
+//     id: 1,
+//     name: "Engineering",
+//     icon: ,
+//     color: ,
+//     dealay: ,
+//   },
+//   {
+//     id: 2,
+//     name: "English",
+//     icon: ,
+//     color: ,
+//     dealay: ,
+//   },
+//   {
+//     id: 3,
+//     name: "Programming",
+//     icon: ,
+//     color: ,
+//     dealay: ,
+//   },
+//   {
+//     id: 4,
+//     name: "Science",
+//     icon: ,
+//     color: ,
+//     dealay: ,
+//   },
+//   {
+//     id: 5,
+//     name: "History",
+//     icon: ,
+//     color: ,
+//     dealay: ,
+//   },
+//   {
+//     id: 6,
+//     name: "Psychology",
+//     icon: ,
+//     color: ,
+//     dealay: ,
+//   },
+//   {
+//     id: ,
+//     name: "",
+//     icon: ,
+//     color: ,
+//     dealay: ,
+//   },
+//   {
+//     id: ,
+//     name: "",
+//     icon: ,
+//     color: ,
+//     dealay: ,
+//   },
+// ]

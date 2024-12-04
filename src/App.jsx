@@ -4,7 +4,7 @@ import Hero from "./components/Hero/Hero";
 import NumberCounter from "./components/NumberCount/NumberCounter";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import Banner from "./components/Banner/Banner";
-import { BannerData, BannerData2 } from "./mockData/data";
+import SubjectCards from "./components/SubjectCard/SubjectCards";
 
 const App = () => {
   return (
@@ -14,8 +14,8 @@ const App = () => {
       <Hero />
       <NumberCounter />
       <WhyChooseUs />
-      <Banner {...BannerData} />
-      <Banner {...BannerData2} reverse={true} />
+      <Banner />
+      <SubjectCards />
     </main>
   );
 };

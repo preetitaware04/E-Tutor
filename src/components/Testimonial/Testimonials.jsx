@@ -75,6 +75,7 @@ const Testimonials = () => {
                     {/* bottom section */}
                     <div className="py-6 px-3 space-y-4">
                       <p className="text-sm text-gray-500">{item.feedback}</p>
+                      <p>⭐⭐⭐⭐⭐</p>
                     </div>
                   </div>
                 </div>

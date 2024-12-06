@@ -5,6 +5,8 @@ import NumberCounter from "./components/NumberCount/NumberCounter";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import Banner from "./components/Banner/Banner";
 import SubjectCards from "./components/SubjectCard/SubjectCards";
+import Testimonials from "./components/Testimonial/Testimonials";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <WhyChooseUs />
       <Banner />
       <SubjectCards />
+      <Testimonials />
+      <Footer />
     </main>
   );
 };

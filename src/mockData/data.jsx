@@ -153,3 +153,38 @@ export const SubjectCardList = [
     delay: 0.9,
   },
 ];
+
+export const TestimonialsData = [
+  {
+    id: 1,
+    name: "John Doe",
+    feedback:
+      "This platform has been a game-changer for my studies. The courses are well-structured, and the instructors are amazing!",
+    img: "https://picsum.photos/101/101",
+    delay: 0.2,
+  },
+  {
+    id: 2,
+    name: "Steve Smith",
+    feedback:
+      "Thanks to the resources and support, I was able to land my dream job. Highly recommend it!",
+    img: "https://picsum.photos/102/102",
+    delay: 0.5,
+  },
+  {
+    id: 3,
+    name: "Kristen",
+    feedback:
+      "This platform has been a game-changer for my studies. The courses are well-structured, and the instructors are amazing!",
+    img: "https://picsum.photos/104/104",
+    delay: 0.8,
+  },
+  {
+    id: 4,
+    name: "Ariana",
+    feedback:
+      "Thanks to the resources and support, I was able to land my dream job. Highly recommend it!",
+    img: "https://picsum.photos/103/103",
+    delay: 1.1,
+  },
+];

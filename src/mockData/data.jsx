@@ -3,7 +3,7 @@ import { GiGymBag } from "react-icons/gi";
 import { GrYoga } from "react-icons/gr";
 import Img1 from "../assets/bannerImg1.png";
 import Img2 from "../assets/bannerImg2.png";
-import { FaBook } from "react-icons/fa6";
+import { FaBook, FaComputer } from "react-icons/fa6";
 
 export const NavbarMenu = [
   {
@@ -99,57 +99,57 @@ export const SubjectCardList = [
   {
     id: 1,
     name: "Engineering",
-    icon: <FaBook />,
+    icon: <FaComputer />,
     color: "#0063ff",
-    dealay: 0.2,
+    delay: 0.2,
   },
   {
     id: 2,
     name: "English",
     icon: <FaBook />,
     color: "#00c986",
-    dealay: 0.3,
+    delay: 0.3,
   },
   {
     id: 3,
     name: "Programming",
-    icon: <FaBook />,
+    icon: <FaComputer />,
     color: "#922aee",
-    dealay: 0.4,
+    delay: 0.4,
   },
   {
     id: 4,
     name: "Science",
     icon: <FaBook />,
     color: "#ea7516",
-    dealay: 0.5,
+    delay: 0.5,
   },
   {
     id: 5,
     name: "History",
     icon: <FaBook />,
     color: "#075267",
-    dealay: 0.6,
+    delay: 0.6,
   },
   {
     id: 6,
     name: "Psychology",
     icon: <FaBook />,
     color: "#986d1d",
-    dealay: 0.7,
+    delay: 0.7,
   },
   {
     id: 7,
     name: "Web design",
-    icon: <FaBook />,
+    icon: <FaComputer />,
     color: "#b93838",
-    dealay: 0.8,
+    delay: 0.8,
   },
   {
     id: 8,
     name: "See all",
     icon: <FaBook />,
     color: "#464646",
-    dealay: 0.9,
+    delay: 0.9,
   },
 ];

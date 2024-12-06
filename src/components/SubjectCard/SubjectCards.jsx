@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { FaComputer } from "react-icons/fa6";
 import { SubjectCardList } from "../../mockData/data.jsx";
 const SubjectCards = () => {
   return (
@@ -20,9 +19,28 @@ const SubjectCards = () => {
             {SubjectCardList.map((subject) => {
               return (
                 <>
-                  <div className="border rounded-lg  border-secondary/20 p-4 flex justify-center items-center gap-4 hover:!scale-105 ">
-                    <div>{subject.icon}</div>
-                  </div>
+                  <motion.div
+                    key={subject.id}
+                    initial={{ opacity: 0, x: -200 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 100,
+                      delay: subject.delay,
+                    }}
+                    className="border rounded-lg  border-secondary/20 p-4 flex justify-start items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer"
+                  >
+                    <div
+                      style={{
+                        color: subject.color,
+                        backgroundColor: subject.color + "20",
+                      }}
+                      className="w-10 h-10 rounded-md flex justify-center items-center"
+                    >
+                      {subject.icon}
+                    </div>
+                    <p>{subject.name}</p>
+                  </motion.div>
                 </>
               );
             })}

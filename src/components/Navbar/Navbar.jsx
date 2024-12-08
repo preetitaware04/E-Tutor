@@ -3,6 +3,7 @@ import { NavbarMenu } from "../../mockData/data.jsx";
 import { MdComputer, MdMenu } from "react-icons/md";
 import { motion } from "framer-motion";
 import ResponsiveMenu from "./ResponsiveMenu.jsx";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,13 +25,17 @@ const Navbar = () => {
             <ul className="flex items-center gap-6">
               {NavbarMenu.map((item) => {
                 return (
-                  <li key={item.key}>
-                    <a
-                      href={item.link}
-                      className="inline-block text-gray-600 text-sm xl:text-base py-1 px-2 xl:px-3 hover:text-secondary transition-all duration-300 font-semibold"
+                  <li key={item.id}>
+                    <NavLink
+                      to={item.link}
+                      className={({ isActive }) =>
+                        `inline-block text-sm xl:text-base py-1 px-2 xl:px-3 font-semibold transition-all duration-300 ${
+                          isActive ? "text-secondary" : "text-gray-600"
+                        }`
+                      }
                     >
                       {item.title}
-                    </a>
+                    </NavLink>
                   </li>
                 );
               })}

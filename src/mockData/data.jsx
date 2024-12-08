@@ -4,6 +4,7 @@ import { GrYoga } from "react-icons/gr";
 import Img1 from "../assets/bannerImg1.png";
 import Img2 from "../assets/bannerImg2.png";
 import { FaBook, FaComputer } from "react-icons/fa6";
+import AboutUs from "../components/AboutUs/AboutUs";
 
 export const NavbarMenu = [
   {
@@ -14,22 +15,22 @@ export const NavbarMenu = [
   {
     id: 2,
     title: "For Students",
-    link: "#",
+    link: "/ForStudents",
   },
   {
     id: 3,
     title: "Resources",
-    link: "#",
+    link: "/Resources",
   },
   {
     id: 4,
     title: "About us",
-    link: "#",
+    link: "/aboutus",
   },
   {
     id: 5,
     title: "Contact us",
-    link: "#",
+    link: "/ContactUs",
   },
 ];
 
